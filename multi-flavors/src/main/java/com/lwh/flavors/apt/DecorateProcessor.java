@@ -41,8 +41,8 @@ import javax.lang.model.element.TypeElement;
 @AutoService(Processor.class)
 @SupportedAnnotationTypes(
         {
-                "com.lwh.jackknife.multiproxy.annotation.Difference",
-                "com.lwh.jackknife.multiproxy.annotation.Wrapper"
+                "com.lwh.flavors.annotation.Difference",
+                "com.lwh.flavors.annotation.Wrapper"
         })
 @SupportedSourceVersion(SourceVersion.RELEASE_7)
 public class DecorateProcessor extends AbstractProcessor {
