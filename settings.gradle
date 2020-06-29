@@ -1,0 +1,2 @@
+include ':multi-flavors'
+rootProject.name = "MultiFlavors"
